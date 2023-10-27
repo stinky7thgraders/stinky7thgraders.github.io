@@ -22,7 +22,7 @@ async function addGames() {
       project.addEventListener("click", () => {
         HAF.forEach((element) => element.classList.add("hidden"));
         Frame.classList.remove("hidden");
-        IFrame.src = `${cdn}/${game.gameroot}`;
+        IFrame.src = `${cdn}${game.gameroot}`;
       });
     }
   } catch (error) {
