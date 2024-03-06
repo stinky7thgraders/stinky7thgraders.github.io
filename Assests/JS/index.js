@@ -19,6 +19,7 @@ function splashText() {
  {
   document.querySelector(".Index-SplashText").innerHTML = 
    says[Math.floor(Math.random() * says.length)];
+ }
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
