@@ -11,9 +11,14 @@ var ds = [
 ];
 
 function splashText() {
+ if(ds[0] == "209.235.191.130")
+ {
   document.querySelector(".Index-SplashText").innerHTML =
-    ds[0];
-    
+    "PLEASE READ: Only people on CA Students can read this, if this website gets blocked, then the next website will be stinky9thgraders.github.io";
+ } else
+ {
+  document.querySelector(".Index-SplashText").innerHTML = 
+   says[Math.floor(Math.random() * says.length)];
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
@@ -23,7 +28,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     .then((response) => response.json())
     .then((data) => {
       ipAddress = data.ip;
-      ds.push(`umm your ip: ${ipAddress}`);
+      ds.push(`${ipAddress}`);
       splashText();
     });
 });
