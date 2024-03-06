@@ -54,7 +54,7 @@ h1 {
   margin-top: 5px;
   height: 36px;
   padding: 0.5em;
-  padding-left: 1.25em;
+  padding-left: 0.25em;
 }
 .Navigation-Image:hover {
   animation: shake 5s;
