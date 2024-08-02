@@ -9,8 +9,8 @@ function splashText() {
     "You Guys are Awesome, Keep Up the Good Work";
  } else
  {
-   var e = document.getElementsByTagName('html')[0];
-   e.removeChild(document.body);
+   // var e = document.getElementsByTagName('html')[0];
+   // e.removeChild(document.body);
  }
 }
 
