@@ -226,9 +226,8 @@
         </div>
     </div>
 
-    <div class="checkout">
+    <div class="product" onclick="checkOut()">
         <h2>Checkout</h2>
-        <p>To place your order, please fill out the <a href="https://forms.gle/HPXBYDpcfd5pdn6AA" target="_blank">Checkout Form</a>.</p>
     </div>
 
     <footer>
@@ -248,6 +247,9 @@
     </div>
 
     <script>
+        function checkOut() {
+            window.open("https://forms.gle/v8TYhcY8GeC2vnon9");
+        }
         function openModal(imageSrc, colors, title) {
             document.getElementById('modalImage').src = imageSrc;
             document.getElementById('modalTitle').textContent = title;
