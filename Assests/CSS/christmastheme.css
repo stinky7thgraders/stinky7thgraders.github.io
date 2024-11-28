@@ -1,0 +1,41 @@
+/* Light Theme (Christmas) */
+body.light {
+    --bg-accent1: rgb(215, 215, 215); /* Original grey background */
+    --bg-accent2: rgb(205, 205, 205); /* Slightly darker grey for contrast */
+    --text-color1: rgb(0, 0, 0); /* Traditional black text for readability */
+    --text-shadow: rgba(255, 0, 0, 0.3); /* Christmas Red text shadow */
+    --btn-accent: rgba(255, 99, 71); /* Tomato red (classic Christmas color) */
+    --btn-accent2: rgba(255, 99, 71, 0.75); /* Semi-transparent red for buttons */
+    --btn-box-shadow: rgba(255, 99, 71, 0.5); /* Red box shadow */
+    --nav-box-hover: #228B22; /* Christmas green for hover */
+}
+
+/* AMOLED (Dark) Theme - Christmas */
+body.amoled {
+    --bg-accent1: rgb(0, 0, 0); /* Black background for dark theme */
+    --bg-accent2: var(--bg-accent1); /* Black background for consistency */
+    --text-color1: rgb(255, 255, 255); /* White text for contrast on dark background */
+    --text-shadow: rgba(0, 0, 0, 0.8); /* Darker shadow for text */
+    --btn-accent: rgb(255, 69, 0); /* Christmas Red button color */
+    --btn-accent2: rgba(255, 69, 0, 0.7); /* Slightly transparent red */
+    --btn-box-shadow: rgba(255, 69, 0, 0.5); /* Red glow box shadow */
+    --nav-box-hover: rgb(255, 215, 0); /* Gold for navigation hover effect */
+}
+
+/* Default Body Styling */
+body {
+    background: var(--bg-accent1); /* Grey background */
+    --btn-rounding: 15px; /* Rounded corners for buttons */
+}
+
+/* Dark Theme Base */
+body {
+    --bg-accent1: rgb(40, 40, 40); /* Dark grey background for base */
+    --bg-accent2: rgb(50, 50, 50); /* Slightly lighter background for contrast */
+    --text-color1: rgb(255, 255, 255); /* White text color */
+    --text-shadow: rgba(20, 20, 20, 0.5); /* Subtle shadow for text */
+    --btn-accent: rgba(60, 60, 60); /* Dark button background */
+    --btn-accent2: rgba(60, 60, 60, 0.75); /* Slightly transparent button */
+    --btn-box-shadow: rgba(70, 70, 70, 0.5); /* Dark box shadow */
+    --nav-box-hover: var(--text-color1); /* White hover effect for navigation */
+}
