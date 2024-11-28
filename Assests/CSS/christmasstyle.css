@@ -1,4 +1,11 @@
-/* General Reset & Styles */
+/* All Files */
+
+a:hover {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  display: none;
+}
 * {
   padding: 0;
   margin: 0;
@@ -9,115 +16,97 @@
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
   scrollbar-width: none;
-  background-color: #f4f4f4; /* Light Snowy Background */
 }
-
 h1 {
   font-family: Calibri, "Trebuchet MS", sans-serif;
-  color: #b22222; /* Christmas Red for Headers */
-  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.15); /* Shadow for Depth */
 }
-
-/* Button Styling for Christmas */
 .Normal-Button {
   margin: 5px 10px;
-  background-color: #32cd32; /* Christmas Green */
+  background-color: var(--btn-accent);
   border: 0;
-  color: #ffffff;
+  color: var(--text-color1);
   padding: 0.8em;
-  border-radius: 25px; /* Rounded Button */
-  box-shadow: 0 0 10px 5px #ff6347; /* Red Glow Shadow */
+  border-radius: var(--btn-rounding);
+  box-shadow: 0 0 10px 5px var(--btn-box-shadow);
   transition: 0.75s;
 }
-
 .Normal-Button:hover {
   cursor: pointer;
   transition: 0.75s;
   scale: 1.1;
-  background-color: #ff6347; /* Change to Tomato Red on Hover */
-  box-shadow: 0 0 15px 10px #ff6347; /* Glowing effect */
 }
-
 .Normal-Button img {
   width: 24px;
   align-items: center;
   display: flex;
 }
 
-/* Navigation Bar Styling */
+/* Navigation Bar */
+
 .Navigation {
   width: 100%;
   height: 60px;
-  background: #006400; /* Dark Green */
+  background: var(--bg-accent2);
   display: flex;
   border-radius: 0 0 25px 25px;
 }
-
 .Navigation-Image img {
   margin-top: 5px;
   height: 36px;
   padding: 0.5em;
   padding-left: 0.25em;
 }
-
 .Navigation-Image:hover {
   animation: shake 5s;
 }
-
 .Navigation-Container {
   display: flex;
   align-items: center;
   flex-direction: row;
   width: 100%;
 }
-
 .Navigation-Container ul {
   gap: 15px;
   display: flex;
   position: absolute;
   transform: translate(15%);
 }
-
 .Navigation-Button a {
   display: flex;
   padding: 0.75em;
   align-items: center;
   gap: 5px;
-  color: #ffffff;
-  background-color: #ff6347; /* Red for Buttons */
-  border-radius: 25px;
-  border: 1px solid #ff6347;
+  color: var(--text-color1);
+  background-color: var(--btn-accent);
+  border-radius: var(--btn-rounding);
+  border: 1px solid var(--btn-accent);
 }
-
 .Navigation-Button a:hover {
-  border: 1px solid #ffd700; /* Gold Border Hover */
+  border: 1px solid var(--nav-box-hover);
   transition: 0.75s;
 }
 
-/* Index Page - Christmas Centered */
+/* Index Page */
+
 .Index-Container {
   position: absolute;
   transform: translate(-50%, -50%);
   text-align: center;
   left: 50%;
   top: 50%;
-  color: #b22222;
+  color: var(--text-color1);
 }
-
 .Index-Container div h1 {
   font-size: 5em;
-  text-shadow: 0 10px 5px rgba(255, 0, 0, 0.3); /* Red Glow */
+  text-shadow: 0 10px 5px var(--text-shadow);
 }
-
 .Index-SplashText {
   margin-bottom: 30px;
-  text-shadow: 0 5px 5px rgba(255, 0, 0, 0.3);
+  text-shadow: 0 5px 5px var(--text-shadow);
 }
-
 .Index-SplashText:hover {
   cursor: pointer;
 }
-
 .Index-BottomBar {
   padding: 0.75em;
   font-size: 0.5rem;
@@ -127,50 +116,45 @@ h1 {
   bottom: 0;
   justify-content: center;
   gap: 10px;
-  background-color: #b22222; /* Christmas Red */
 }
-
 .Index-BottomBar-Text {
-  color: #ffffff;
+  color: var(--text-color1);
   text-decoration: underline;
 }
 
-/* Projects Section */
+/* Projects/Apps/Others Page */
+
 .Projects-Frame {
   z-index: 9999;
   display: block;
   height: 100vh;
   width: 100%;
 }
-
 .Projects-IFrame {
   height: 100%;
   width: 100%;
   border: none;
 }
-
 .Projects-FrameBar {
   display: flex;
   flex-direction: row-reverse;
   gap: 10px;
   text-align: center;
-  color: #ffffff;
+  color: var(--text-color1);
   padding: 0.75em;
-  background: #32cd32; /* Christmas Green */
-  border-radius: 25px;
+  background: var(--btn-accent2);
+  border-radius: var(--btn-rounding);
   width: fit-content;
   right: 0;
   height: fit-content;
   position: absolute;
   margin: 15px 15px 0 0;
   font-size: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px var(--btn-box-shadow);
 }
-
 .Projects-FrameBar:hover {
   cursor: pointer;
 }
-
 .Projects-Container {
   padding: 2.5em;
   display: flex;
@@ -179,27 +163,24 @@ h1 {
   gap: 35px;
   justify-content: center;
 }
-
 .Projects-Project {
   animation: zoom-in-fade 1s cubic-bezier(0.34, 1.56, 0.64, 1);
-  border-radius: 25px;
+  border-radius: var(--btn-rounding);
   padding: 0.75em;
   height: fit-content;
   width: 12.5em;
-  background-color: #ff6347; /* Red */
-  color: #ffffff;
+  background-color: var(--btn-accent);
+  color: var(--text-color1);
   transition: 0.75s;
-  box-shadow: 0 0 10px 5px rgba(255, 99, 71, 0.7);
+  box-shadow: 0 0 10px 5px var(--btn-box-shadow);
 }
-
 .Projects-Project:hover {
   scale: 1.1;
   transition: 0.75s;
   cursor: pointer;
 }
-
 .Projects-Container img {
-  border-radius: 25px;
+  border-radius: var(--btn-rounding);
   height: 100px;
   width: 100px;
   display: block;
@@ -207,17 +188,39 @@ h1 {
   margin-right: auto;
   margin-bottom: 5px;
 }
-
 .Projects-Container h1 {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   text-align: center;
   font-size: large;
-  color: #ffffff;
+  color: var(--text-color1);
 }
 
-/* Christmas-themed Animations */
+/* Settings Page */
+
+.Settings-Header {
+  margin-top: 25px;
+  color: var(--text-color1);
+  animation: zoom-in-fade 1s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.Settings-Container {
+  padding: 0.5em;
+  height: fit-content;
+  animation: zoom-in-fade 1s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.Settings-TextInput {
+  background-color: var(--btn-accent);
+  box-shadow: 0 0 10px 5px var(--btn-box-shadow);
+  border-radius: var(--btn-rounding);
+  padding: 0.8em;
+  color: var(--text-color1);
+  border: none;
+  margin: 5px 10px;
+}
+
+/* Animations */
+
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
@@ -253,7 +256,18 @@ h1 {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
-
+@keyframes move-down {
+  0% {
+    margin-top: -2rem;
+    opacity: 0;
+  }
+  70% {
+    margin-top: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes zoom-in-fade {
   0% {
     scale: 0;
@@ -265,32 +279,24 @@ h1 {
   }
 }
 
-@keyframes snow {
-  0% {
-    top: -10px;
-    opacity: 1;
-  }
-  100% {
-    top: 100vh;
-    opacity: 0;
-  }
-}
+/* Important */
 
-.snowflake {
-  position: absolute;
-  top: 0;
-  opacity: 0.8;
-  pointer-events: none;
-  animation: snow 10s linear infinite;
-}
-
-.snowflake::before {
-  content: "❄"; /* Snowflake Symbol */
-  font-size: 1.5em;
-  color: #ffffff;
-}
-
-/* Hidden Class */
 .hidden {
   display: none !important;
+}
+
+/* Christmas Theme Background (Restored Grey) */
+
+body {
+    background: var(--bg-accent1); /* Restores original grey background */
+    --btn-rounding: 15px;
+    /* Original Grey Theme Colors */
+    --bg-accent1: rgb(215, 215, 215); /* Light Grey */
+    --bg-accent2: rgb(205, 205, 205); /* Slightly darker grey */
+    --text-color1: rgb(0, 0, 0); /* Black text */
+    --text-shadow: rgba(255, 0, 0, 0.3); /* Christmas Red Shadow */
+    --btn-accent: rgba(255, 99, 71); /* Christmas Red Buttons */
+    --btn-accent2: rgba(255, 99, 71, 0.75); /* Slightly transparent red */
+    --btn-box-shadow: rgba(255, 99, 71, 0.5); /* Red Box Shadow */
+    --nav-box-hover: #228B22; /* Christmas Green */
 }
