@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with S7G Bot</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #121212; /* Dark background */
+            color: #e0e0e0; /* Light text */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .chat-container {
+            background: #1e1e1e; /* Dark container */
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 600px;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .header {
+            background-color: #00aaff; /* Vibrant header */
+            color: white;
+            padding: 15px;
+            font-size: 1.5rem;
+            text-align: center;
+            border-radius: 12px 12px 0 0;
+        }
+
+        /* Chat messages container */
+        .chat-box {
+            padding: 20px;
+            overflow-y: auto;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column; /* Top-to-bottom message flow */
+            gap: 10px;
+        }
+
+        /* User and AI message bubbles */
+        .message {
+            display: inline-block;
+            padding: 12px 20px;
+            max-width: 80%;
+            border-radius: 20px;
+            font-size: 1rem;
+            line-height: 1.4;
+            word-wrap: break-word;
+        }
+
+        .user-message {
+            background-color: #00aaff;
+            color: white;
+            align-self: flex-end;
+        }
+
+        .ai-message {
+            background-color: #333;
+            color: #e0e0e0;
+            align-self: flex-start;
+        }
+
+        /* Textarea input styling */
+        textarea {
+            width: 100%;
+            padding: 12px;
+            font-size: 1rem;
+            background-color: #333; /* Dark input box */
+            color: #e0e0e0;
+            border: 1px solid #444;
+            border-radius: 10px;
+            resize: none;
+            transition: border-color 0.3s ease;
+            margin-bottom: 15px;
+        }
+
+        textarea:focus {
+            border-color: #00aaff;
+            outline: none;
+        }
+
+        /* Button styling */
+        button {
+            background-color: #00aaff;
+            color: white;
+            font-size: 1.1rem;
+            padding: 12px 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-bottom: 15px;
+        }
+
+        button:hover {
+            background-color: #0088cc;
+        }
+
+        button:active {
+            background-color: #0077b3;
+        }
+
+        /* Loading spinner */
+        .loading {
+            font-size: 1.2rem;
+            color: #00aaff;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="chat-container">
+        <div class="header">Chat with S7G Bot</div>
+        <div class="chat-box" id="chatBox"></div>
+        <textarea id="userMessage" placeholder="Type your message here..." rows="3"></textarea>
+        <button onclick="sendMessage()">Send</button>
+        <div id="loading" class="loading" style="display: none;">Thinking...</div>
+    </div>
+
+    <script>
+        const chatBox = document.getElementById("chatBox");
+        const userMessageInput = document.getElementById("userMessage");
+        const loadingDiv = document.getElementById("loading");
+
+        let conversationHistory = [];
+
+        // Function to create a message bubble
+        function createMessage(message, type) {
+            const messageElement = document.createElement("div");
+            messageElement.classList.add("message", type);
+            messageElement.textContent = message;
+            return messageElement;
+        }
+
+        // Function to scroll to the bottom of the chat
+        function scrollToBottom() {
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        // Handle Enter key press to send the message
+        userMessageInput.addEventListener("keydown", function(event) {
+            if (event.key === "Enter" && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+        });
+
+        async function sendMessage() {
+            const userMessage = userMessageInput.value.trim();
+            if (!userMessage) return;
+
+            // Display user message
+            chatBox.appendChild(createMessage(userMessage, "user-message"));
+            conversationHistory.push({ role: "user", content: userMessage });
+            userMessageInput.value = ""; // Clear input field
+
+            // Show loading indicator (Thinking...) dynamically
+            const thinkingMessage = createMessage("Thinking...", "ai-message");
+            chatBox.appendChild(thinkingMessage);
+
+            // Scroll to the bottom
+            scrollToBottom();
+
+            // Updated Google Apps Script URL
+            const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbzhrThnFIkX793JRTAxWe7RJ7xfL2rmQkjMzSDxdnF_XfQO0QNM6Dbcaq9_kBh-E_D86g/exec';
+
+            // Send the entire conversation to the backend for context
+            const response = await fetch(googleScriptUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    conversation: conversationHistory
+                })
+            });
+
+            const data = await response.text();
+
+            // Remove the "Thinking..." message once the response is ready
+            thinkingMessage.remove();
+
+            // Display AI message
+            chatBox.appendChild(createMessage(data, "ai-message"));
+            conversationHistory.push({ role: "ai", content: data });
+
+            // Scroll to the bottom again
+            scrollToBottom();
+        }
+    </script>
+
+</body>
+</html>
