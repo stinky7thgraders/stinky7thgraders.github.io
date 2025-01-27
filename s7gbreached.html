@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S7G BREACHED</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #2E2E2E;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            overflow-y: scroll; /* Allows vertical scrolling for the whole page */
+        }
+
+        h1 {
+            color: #4CAF50;
+            font-size: 3em;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 5px;
+            color: #bbb;
+        }
+        h3 {
+            font-size: 1.2em;
+            margin-top: 15px;
+            color: #bbb;
+        }
+
+        .site-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 1200px;
+            margin-top: 30px;
+            justify-content: center;
+        }
+
+        .site-links a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #2196F3;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .site-links a:hover {
+            background-color: #0b7dda;
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Iframe container */
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            height: 60vh;
+            margin-top: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Button Styles */
+        .iframe-container button {
+            position: absolute;
+            top: 10px;
+            padding: 12px 25px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        #fullscreen-btn {
+            right: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #fullscreen-btn:hover {
+            background-color: #45a049;
+            transform: translateY(-3px);
+        }
+
+        #close-btn {
+            left: 10px;
+            background-color: #F44336;
+            color: white;
+        }
+
+        #close-btn:hover {
+            background-color: #d32f2f;
+            transform: translateY(-3px);
+        }
+
+        /* Mobile-friendly adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+
+            .site-links a {
+                font-size: 1.1em;
+                padding: 15px;
+            }
+
+            .iframe-container {
+                height: 50vh;
+            }
+
+            .iframe-container button {
+                font-size: 1em;
+                padding: 10px 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to S7G BREACHED!</h1>
+    <p>C/O 2028 Rules</p>
+
+    <div class="iframe-container">
+        <iframe id="iframe" src="" scrolling="yes" frameborder="0" allowfullscreen="true" allow="autoplay"></iframe>
+        
+        <button id="fullscreen-btn" onclick="toggleFullscreen()">Go Fullscreen</button>
+        <button id="close-btn" onclick="closeIframe()">Close Game</button>
+    </div>
+
+    <h3>Scroll down for games</h3>
+
+    <div class="site-links">
+        <a style="background-color: green;" href="https://stinky7thgraders.site/s7gbreached/S7G_BREACHED.html" download>Update Site</a>
+        <a href="#" onclick="loadSite('https://stinky7thgraders.site')">Stinky7thGraders</a>
+        <a href="#" onclick="loadSite('https://games.crazygames.com/en_US/deadshot-io/index.html?v=1.310#renweb.com')">Deadshot.io</a>
+        <a href="#" onclick="loadSite('https://games.crazygames.com/en_US/shellshockersio/index.html?v=1.310#renweb.com')">ShellShock.io</a>
+        <a href="#" onclick="loadSite('https://slither.io/#renweb.com')">Slither.io</a>
+        <a href="#" onclick="loadSite('https://diep.io/#renweb.com')">Diep.io</a>
+        <a href="#" onclick="loadSite('https://games.crazygames.com/en_US/hazmob-fps-online-shooter/index.html?v=1.310#renweb.com')">Hazmob</a>
+        <a href="#" onclick="loadSite('https://games.crazygames.com/en_US/worldguessr/index.html?v=1.310#renweb.com')">Free Geoguessr</a>
+        <a href="#" onclick="loadSite('https://games.crazygames.com/en_US/cg-fc-24/index.html?v=1.310#renweb.com')">CG FC</a>
+        <a href="#" onclick="loadSite('https://class811.github.io/g177/tag-2#renweb.com')">Tag 2</a>
+        <a href="#" onclick="loadSite('https://games.crazygames.com/en_US/cut-the-rope-ebx/index.html?v=1.310#renweb.com')">Cut the Rope</a>
+        <a href="#" onclick="loadSite('https://games.crazygames.com/en_US/jet-boat-racing/index.html?v=1.310#renweb.com')">Jet Boat Racing</a>
+        <a target="_blank" href="https://forms.gle/gGYWDcd7EftApxsn9" style="background-color: purple;">Request a Game</a>
+    </div>
+
+    <script>
+        function loadSite(url) {
+            var iframe = document.getElementById('iframe');
+            iframe.src = url;
+        }
+
+        function toggleFullscreen() {
+            var iframe = document.getElementById('iframe');
+            if (iframe.requestFullscreen) {
+                iframe.requestFullscreen();
+            } else if (iframe.mozRequestFullScreen) {
+                iframe.mozRequestFullScreen();
+            } else if (iframe.webkitRequestFullscreen) {
+                iframe.webkitRequestFullscreen();
+            } else if (iframe.msRequestFullscreen) {
+                iframe.msRequestFullscreen();
+            }
+        }
+
+        function closeIframe() {
+            var iframe = document.getElementById('iframe');
+            iframe.src = "";  // Clear the iframe content
+        }
+    </script>
+</body>
+</html>
