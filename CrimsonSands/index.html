@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Crimson Sands</title>
-    <link rel="shortcut icon" href="Crimson Sands.jpg">
+    <title>Unity WebGL Player | Crimson Sands</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body style="background: black;"> 
-    <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-      <h1 style="color: white; padding-top: 30px; font-family: 'Playfair Display', serif;">Crimson Sands | Read the Patch Notes Under the Game</h1>
-    </div>    
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -26,36 +22,6 @@
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Crimson Sands</div>
       </div>
-    </div>
-    <div id="patch-notesandinstructions" style="max-width: 960px; margin: 700px auto; padding: 10px; background: #222; color: #fff; border-radius: 8px;">
-      <h2 style="text-align: center; font-family: 'Playfair Display', serif;">Controls</h2>
-      <ul id="patch-list" style="list-style-type: none; padding: 0;">
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>Tab</strong> - Settings</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>WSAD</strong> - Movement</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>C</strong> - Slide</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>R</strong> - Reload</li>
-        <li style="font-family: 'Playfair Display', serif; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.2);"><strong>Shift</strong> - Scope In</li>
-        <li style="font-family: 'Playfair Display', serif; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.2);"><strong>1</strong> - AR</li>
-        <li style="font-family: 'Playfair Display', serif; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.2);"><strong>2</strong> - Shotty</li>
-        <li style="font-family: 'Playfair Display', serif; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.2);"><strong>3</strong> - Sniper</li>
-        <li style="font-family: 'Playfair Display', serif; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.2);"><strong>4</strong> - Pistol</li>
-      </ul>
-      
-      <hr style="border: 0; height: 3px; background: rgba(255,255,255,0.5); margin: 30px 0;">
-      
-      <h2 style="text-align: center; font-family: 'Playfair Display', serif; padding: 20px">Patch Notes</h2>
-      <ul id="patch-list" style="list-style-type: none; padding: 0;">
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>(Next Major Update, ETA Early April) Version 1.0.0</strong> - Game Release!</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>(Next Major Update, ETA Before Release) Version 0.8.0</strong> - Adding More Extravagant Gamemodes like Team Deathmatch</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>Version 0.7.0</strong> - Added Settings, Added Random Gamemode, Fixed Bugs</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>Version 0.6.0</strong> - Added Damage Output on Hit, Fixed Minor Bugs, Added Reload Button, and Updated Scoreboard</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>Version 0.5.0</strong> - Fixed Major Bugs and Changed Some Keys</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>Version 0.4.0</strong> - Added Scoping</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>Version 0.3.0</strong> - Fixed Minor Bugs and Buffed Shotty</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>Version 0.2.0</strong> - Added Patch Notes Screen :)</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>Version 0.1.0</strong> - Added Killcard to Show when Player Killed</li>
-        <li style="font-family: 'Playfair Display', serif; border-bottom: 1px solid rgba(255,255,255,0.2); padding: 10px 0;"><strong>Version 0.0.1</strong> - Initial release with core gameplay mechanics and bug fixes.</li>
-      </ul>
     </div>
     <script>
 
@@ -93,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/CrimsonSands.loader.js";
       var config = {
-        dataUrl: buildUrl + "/CrimsonSands.data.unityweb",
-        frameworkUrl: buildUrl + "/CrimsonSands.framework.js.unityweb",
-        codeUrl: buildUrl + "/CrimsonSands.wasm.unityweb",
+        dataUrl: buildUrl + "/CrimsonSands.data",
+        frameworkUrl: buildUrl + "/CrimsonSands.framework.js",
+        codeUrl: buildUrl + "/CrimsonSands.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "S7G",
         productName: "Crimson Sands",
