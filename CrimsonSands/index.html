@@ -6,11 +6,69 @@
     <title>Crimson Sands</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <style>
+      #mini-game-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        max-width: 800px;
+        background-color: #222;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 2px solid #600;
+      }
+      
+      #mini-game-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+      }
+      
+      #close-mini-game {
+        background: #600;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Playfair Display', serif;
+        transition: background 0.3s;
+      }
+      
+      #close-mini-game:hover {
+        background: #900;
+      }
+      
+      #mini-game-iframe {
+        width: 100%;
+        height: 500px;
+        border: none;
+        border-radius: 5px;
+      }
+      
+      .fade-out {
+        animation: fadeOut 1s ease forwards;
+      }
+      
+      @keyframes fadeOut {
+        from { opacity: 1; }
+        to { opacity: 0; visibility: hidden; }
+      }
+    </style>
   </head>
   <body style="background: black;">
     <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
         <h1 style="color: white; padding-top: 30px; font-family: 'Playfair Display', serif;">Crimson Sands | Read the Patch Notes Under the Game</h1>
-      </div>  
+    </div>  
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -26,6 +84,16 @@
         <div id="unity-build-title">Crimson Sands</div>
       </div>
     </div>
+    
+    <!-- Mini-game popup that appears during loading -->
+    <div id="mini-game-container">
+      <div id="mini-game-header">
+        <h2>Play While Loading</h2>
+        <button id="close-mini-game">Close Mini-Game</button>
+      </div>
+      <iframe id="mini-game-iframe" src="https://studio.code.org/projects/applab/sWBe8ol1QKHpybhhJJcceKgFOW5pcMz9h0qZBBAmAqM/embed"></iframe>
+    </div>
+    
     <div id="patch-notesandinstructions" style="max-width: 960px; margin: 700px auto; padding: 10px; background: #222; color: #fff; border-radius: 8px;">
         <h2 style="text-align: center; font-family: 'Playfair Display', serif;">Controls</h2>
         <ul id="patch-list" style="list-style-type: none; padding: 0;">
@@ -56,13 +124,19 @@
         </ul>
       </div>
     <script>
-
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
       var loadingBar = document.querySelector("#unity-loading-bar");
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var warningBanner = document.querySelector("#unity-warning");
+      var miniGameContainer = document.querySelector("#mini-game-container");
+      var closeMiniGameButton = document.querySelector("#close-mini-game");
+
+      // Add event listener for the close button
+      closeMiniGameButton.addEventListener("click", function() {
+        miniGameContainer.classList.add("fade-out");
+      });
 
       // Shows a temporary message banner/ribbon for a few seconds, or
       // a permanent error message on top of the canvas if type=='error'.
@@ -137,18 +211,20 @@
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
-              }).then((unityInstance) => {
-                loadingBar.style.display = "none";
-                fullscreenButton.onclick = () => {
-                  unityInstance.SetFullscreen(1);
-                };
-              }).catch((message) => {
-                alert(message);
-              });
-            };
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          // Hide mini-game when Unity game is loaded
+          miniGameContainer.classList.add("fade-out");
+          
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
+      };
 
       document.body.appendChild(script);
-
     </script>
   </body>
 </html>
