@@ -50,7 +50,8 @@
 
     <script src="./Assests/JS/aboutblank.js"></script>
     <script src="./Assests/JS/options.js"></script>
-    <script>const Frame = document.querySelector(".Projects-Frame");
+    <script>
+        const Frame = document.querySelector(".Projects-Frame");
         const HAF = document.querySelectorAll(".hideAfterFullscreen");
         const IFrame = document.querySelector(".Projects-IFrame");
         
@@ -63,7 +64,7 @@
               const project = document.createElement("div");
               project.className = "Projects-Project";
               project.innerHTML = `
-                        <img src="/Icons/${game.game.replace(
+                        <img src="./Icons/${game.game.replace(
                 /[.\s]/g,
                 ""
               )}.webp" loading="lazy" onerror="this.src='./Assests/Imgs/NoIcon.png'"/>
@@ -111,6 +112,6 @@
         });
         
         addGames();
-        </script>
+    </script>
 </body>
 </html>
