@@ -19,7 +19,7 @@ async function addGames() {
       document.querySelector(".Projects-Container").appendChild(project);
 
       project.addEventListener("click", () => {
-        HAF.forEach((element) => element.classList.add("hidden"));
+        HAF.forEach((element) => element.classList.add("hidden")); //fixed this right?
         Frame.classList.remove("hidden");
         IFrame.src = `${game.gameroot}`;
       });
