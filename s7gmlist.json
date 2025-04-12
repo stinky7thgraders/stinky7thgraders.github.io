@@ -1,5 +1,9 @@
 [ 
   {
+    "gameroot": "/CrimsonSands/",
+    "game": "Crimson Sands"
+  },
+  {
     "gameroot": "/files/1v1lol/",
     "game": "1v1lol"
   },
@@ -46,10 +50,6 @@
   {
     "gameroot": "/files/BitcoinClicker/",
     "game": "Bitcoin Clicker"
-  },
-  {
-    "gameroot": "/files/BitLife/",
-    "game": "Bit Life"
   },
   {
     "gameroot": "/files/BloonsTD5/",
