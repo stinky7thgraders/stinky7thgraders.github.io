@@ -228,15 +228,15 @@
     "game": "Slowroads"
   },
   {
-    "gameroot": "/HackGames/geneticdivergence",
+    "gameroot": "/HackGames/geneticdivergence/",
     "game": "Genetic Divergence"
   },
   {
-    "gameroot": "/HackGames/stateofmatter",
+    "gameroot": "/HackGames/stateofmatter/",
     "game": "The State of Matter"
   },
   {
-    "gameroot": "/HackGames/astromisadventure",
+    "gameroot": "/HackGames/astromisadventure/",
     "game": "Astros Misadventure"
   },
   {
@@ -474,10 +474,6 @@
   {
     "gameroot": "/tylerunblocks/badicecream3/",
     "game": "Bad Ice Cream 3"
-  },
-  {
-    "gameroot": "/tylerunblocks/bitlife/",
-    "game": "BitLife"
   },
   {
     "gameroot": "/tylerunblocks/bounceback/",
