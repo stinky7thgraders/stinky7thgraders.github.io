@@ -224,6 +224,22 @@
     "game": "Papas Cheeseria"
   },
   {
+    "gameroot": "/slowroads/",
+    "game": "Slowroads"
+  },
+  {
+    "gameroot": "/HackGames/geneticdivergence",
+    "game": "Genetic Divergence"
+  },
+  {
+    "gameroot": "/HackGames/stateofmatter",
+    "game": "The State of Matter"
+  },
+  {
+    "gameroot": "/HackGames/astromisadventure",
+    "game": "Astros Misadventure"
+  },
+  {
     "gameroot": "/files/Papas Cupcakeria/",
     "game": "Papas Cupcakeria"
   },
