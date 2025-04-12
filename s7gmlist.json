@@ -642,5 +642,541 @@
   {
     "gameroot": "/tylerunblocks/xx142b2.exe/",
     "game": "xx142-b2.exe"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/2020game/",
+    "game": "2020game"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/2048hacked/",
+    "game": "2048hacked"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/alieninvadersio/",
+    "game": "alieninvadersio"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/antiterroristrush3/",
+    "game": "antiterroristrush3"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/arcadewizard/",
+    "game": "arcadewizard"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/asmallworldcup/",
+    "game": "asmallworldcup"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/awesometanks/",
+    "game": "awesometanks"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/awesometanks2/",
+    "game": "awesometanks2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/backflipdive3d/",
+    "game": "backflipdive3d"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/baldisbasicsfieldtripcampingremake/",
+    "game": "baldisbasicsfieldtripcampingremake"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/ball2/",
+    "game": "ball2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/basketandball/",
+    "game": "basketandball"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/basketball-legends-2020/",
+    "game": "basketball-legends-2020"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/basketballio/",
+    "game": "basketballio"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/bearonascooter/",
+    "game": "bearonascooter"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/blockysnakes/",
+    "game": "blockysnakes"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/bobtherobber2/",
+    "game": "bobtherobber2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/bouncinghell/",
+    "game": "bouncinghell"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/boundland/",
+    "game": "boundland"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/boxelrebound/",
+    "game": "boxelrebound"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/burritobisonlaunchalibre/",
+    "game": "burritobisonlaunchalibre"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/cardinalchains/",
+    "game": "cardinalchains"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/cavewar/",
+    "game": "cavewar"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/circloo/",
+    "game": "circloo"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/classicube/",
+    "game": "classicube"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/clusterrush/",
+    "game": "clusterrush"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/colorswitch/",
+    "game": "colorswitch"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/colorswitchchallengesedition/",
+    "game": "colorswitchchallengesedition"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/craftmine/",
+    "game": "craftmine"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/deathcario/",
+    "game": "deathcario"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/deathrun3d/",
+    "game": "deathrun3d"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/deathsoul/",
+    "game": "deathsoul"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/dontdropthewhiteball2hacked/",
+    "game": "dontdropthewhiteball2hacked"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/dontfallio/",
+    "game": "dontfallio"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/dragbox/",
+    "game": "dragbox"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/dragnboomonline/",
+    "game": "dragnboomonline"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/driftboss/",
+    "game": "driftboss"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/eggycar/",
+    "game": "eggycar"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/elementaltiles/",
+    "game": "elementaltiles"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/erasebox/",
+    "game": "erasebox"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/exiled_zombies/",
+    "game": "exiled_zombies"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/finnsfantasticfoodmachine/",
+    "game": "finnsfantasticfoodmachine"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/fivenightsatfreddysweb/",
+    "game": "fivenightsatfreddysweb"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/fnafweb/",
+    "game": "fnafweb"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/geodash2/",
+    "game": "geodash2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/geometrydashcadenza/",
+    "game": "geometrydashcadenza"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/geometrydashonscratch/",
+    "game": "geometrydashonscratch"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/geometrydashunbroken/",
+    "game": "geometrydashunbroken"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/geometrydashunbroken2/",
+    "game": "geometrydashunbroken2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/geometryjumpsketchy/",
+    "game": "geometryjumpsketchy"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/geometrymeltdown/",
+    "game": "geometrymeltdown"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/geometryneondashrainbow/",
+    "game": "geometryneondashrainbow"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/geometryneondashworldtwo/",
+    "game": "geometryneondashworldtwo"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/geometryrash/",
+    "game": "geometryrash"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/growinthehole/",
+    "game": "growinthehole"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/gunspin/",
+    "game": "gunspin"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/helios/",
+    "game": "helios"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/hoggy2/",
+    "game": "hoggy2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/houseofhazards/",
+    "game": "houseofhazards"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/icypurplehead2/",
+    "game": "icypurplehead2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/jellytruck/",
+    "game": "jellytruck"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/johnnyupgrade/",
+    "game": "johnnyupgrade"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/jumpjellyjump/",
+    "game": "jumpjellyjump"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/klocki/",
+    "game": "klocki"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/madnessaccelerant/",
+    "game": "madnessaccelerant"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/maptroid/",
+    "game": "maptroid"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/mari0/",
+    "game": "mari0"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/mineclone/",
+    "game": "mineclone"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/mirrorwizard/",
+    "game": "mirrorwizard"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/monkeymart/",
+    "game": "monkeymart"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/motox3m3/",
+    "game": "motox3m3"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/motox3m4winter/",
+    "game": "motox3m4winter"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/motox3m50levels/",
+    "game": "motox3m50levels"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/motox3m5poolparty/",
+    "game": "motox3m5poolparty"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/motox3m6spookyland/",
+    "game": "motox3m6spookyland"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/motox3mallbikesunlocked/",
+    "game": "motox3mallbikesunlocked"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/ovo144/",
+    "game": "ovo144"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/ovo2/",
+    "game": "ovo2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/ovo3dimensions/",
+    "game": "ovo3dimensions"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/pacman3d/",
+    "game": "pacman3d"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/pacmanfps/",
+    "game": "pacmanfps"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/paperio/",
+    "game": "paperio"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/penoire/",
+    "game": "penoire"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/pixelcave/",
+    "game": "pixelcave"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/plactions/",
+    "game": "plactions"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/protektor/",
+    "game": "protektor"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/push/",
+    "game": "push"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/rabbitsamurai/",
+    "game": "rabbitsamurai"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/rabbitsamurai2/",
+    "game": "rabbitsamurai2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/riseofneonsquare/",
+    "game": "riseofneonsquare"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/rockingskytrip/",
+    "game": "rockingskytrip"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/rollingskyryutoku/",
+    "game": "rollingskyryutoku"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/rooftopsnipers2/",
+    "game": "rooftopsnipers2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/roots/",
+    "game": "roots"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/runningaround/",
+    "game": "runningaround"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/scrambledeggs/",
+    "game": "scrambledeggs"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/senya-and-oscar-2/",
+    "game": "senya-and-oscar-2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/shards/",
+    "game": "shards"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/shortlife2/",
+    "game": "shortlife2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/shortride/",
+    "game": "shortride"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/skyblock/",
+    "game": "skyblock"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/sliceofsasha/",
+    "game": "sliceofsasha"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/slimeknight/",
+    "game": "slimeknight"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/slope2/",
+    "game": "slope2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/slopeballfallingball/",
+    "game": "slopeballfallingball"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/snakeio/",
+    "game": "snakeio"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/sonicrevert/",
+    "game": "sonicrevert"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/spaceiskey/",
+    "game": "spaceiskey"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/stickjetchallenge/",
+    "game": "stickjetchallenge"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/stickmanboost/",
+    "game": "stickmanboost"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/stickmanboost2/",
+    "game": "stickmanboost2"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/stickmanepicbattle/",
+    "game": "stickmanepicbattle"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/stickslasher/",
+    "game": "stickslasher"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/subwaysurfersbali/",
+    "game": "subwaysurfersbali"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/supergamemaker/",
+    "game": "supergamemaker"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/superheroio/",
+    "game": "superheroio"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/superhotprototype/",
+    "game": "superhotprototype"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/superpufferfish/",
+    "game": "superpufferfish"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/tailofthedragonunlimitedcoins/",
+    "game": "tailofthedragonunlimitedcoins"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/thebowlingclub/",
+    "game": "thebowlingclub"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/thelittlegiant/",
+    "game": "thelittlegiant"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/timeshooter3swat/",
+    "game": "timeshooter3swat"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/tinyfragments/",
+    "game": "tinyfragments"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/toughgrowth/",
+    "game": "toughgrowth"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/tunnelz/",
+    "game": "tunnelz"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/uforun/",
+    "game": "uforun"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/upleftout/",
+    "game": "upleftout"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/wheely6/",
+    "game": "wheely6"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/wheely7/",
+    "game": "wheely7"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/wheely8/",
+    "game": "wheely8"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/whitepenroad/",
+    "game": "whitepenroad"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/winterfallingpriceoflife/",
+    "game": "winterfallingpriceoflife"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/worldswithinworlds/",
+    "game": "worldswithinworlds"
+  },
+  {
+    "gameroot": "/MathGames/games/html5/zrist/",
+    "game": "zrist"
   }
 ]
