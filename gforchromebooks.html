@@ -33,7 +33,7 @@
     <div class="hideAfterFullscreen">
         <center>
             <h1 style="margin-top: 25px; color: var(--text-color1)">Welcome to S7G, Middleschoolers</h1>
-            <h2 style="margin-top: 25px; color: var(--text-color1)">The games I make will always be at the top of the list</h2>
+            <h2 style="margin-top: 25px; color: var(--text-color1)">The games I make will always have a S7G ORIGINAL GAME icon</h2>
             <h3 style="margin-top: 25px; color: var(--text-color1)">Try out Crimson Sands, I think you will like it :)</h3>
         </center>
         <hr>
@@ -72,7 +72,7 @@
               document.querySelector(".Projects-Container").appendChild(project);
         
               project.addEventListener("click", () => {
-                HAF.forEach((element) => element.classList.add("hidden")); //fixed this right?
+                HAF.forEach((element) => element.classList.add("hidden"));
                 Frame.classList.remove("hidden");
                 IFrame.src = `${game.gameroot}`;
               });
