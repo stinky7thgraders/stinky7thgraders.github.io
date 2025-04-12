@@ -45,8 +45,17 @@
         </center>
     </div>
 
-    <div class="Projects-Container hideAfterFullscreen">
-        
+    <div class="hideAfterFullscreen">
+        <section class="Projects-Originals">
+            <h2 style="text-align: center; margin-top: 2em; color: var(--text-color1)">S7G Originals</h2>
+            <div class="Projects-Container" id="Originals-Container"></div>
+        </section>
+    
+        <hr style="margin: 2em 0">
+    
+        <section>
+            <div class="Projects-Container" id="AllGames-Container"></div>
+        </section>
     </div>
 
     <script src="./Assests/JS/aboutblank.js"></script>
@@ -70,7 +79,11 @@
                 ""
               )}.webp" loading="lazy" onerror="this.src='./Assests/Imgs/NoIcon.png'"/>
                         <h1>${game.game}</h1>`;
-              document.querySelector(".Projects-Container").appendChild(project);
+                        const isOriginal = ["CrimsonSands", "GeneticDivergence", "AstrosMisadventure", "TheStateofMatter"]
+                        .includes(game.game.replace(/\s/g, ''));
+
+                    document.getElementById(isOriginal ? "Originals-Container" : "AllGames-Container")
+                        .appendChild(project);
         
               project.addEventListener("click", () => {
                 HAF.forEach((element) => element.classList.add("hidden")); //fixed this right?
