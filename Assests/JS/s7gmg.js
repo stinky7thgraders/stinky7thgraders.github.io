@@ -11,7 +11,7 @@ async function addGames() {
       const project = document.createElement("div");
       project.className = "Projects-Project";
       project.innerHTML = `
-                <img src="${cdn}/Icons/${game.game.replace(
+                <img src="/Icons/${game.game.replace(
         /[.\s]/g,
         ""
       )}.webp" loading="lazy" onerror="this.src='./Assests/Imgs/NoIcon.png'"/>
@@ -21,7 +21,7 @@ async function addGames() {
       project.addEventListener("click", () => {
         HAF.forEach((element) => element.classList.add("hidden"));
         Frame.classList.remove("hidden");
-        IFrame.src = `${cdn}${game.gameroot}`;
+        IFrame.src = `${game.gameroot}`;
       });
     }
   } catch (error) {
