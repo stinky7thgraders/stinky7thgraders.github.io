@@ -14,10 +14,12 @@
 
     <nav class="Navigation hideAfterFullscreen">
         <div class="Navigation-Container">
-            <a class="Navigation-Image" href="./"><img src="./Assests/Imgs/Logo.png"></img></a>
+            <a class="Navigation-Image" href="./">
+                <img src="./Assests/Imgs/Logo.png">
+            </a>
             <ul>
-                
-            <ul>
+                <!-- Add any nav items here -->
+            </ul>
         </div>
     </nav>
     
@@ -44,8 +46,7 @@
     </div>
 
     <div class="Projects-Container hideAfterFullscreen">
-        <div class="Projects-Project">
-        </div>
+        
     </div>
 
     <script src="./Assests/JS/aboutblank.js"></script>
@@ -72,7 +73,7 @@
               document.querySelector(".Projects-Container").appendChild(project);
         
               project.addEventListener("click", () => {
-                HAF.forEach((element) => element.classList.add("hidden"));
+                HAF.forEach((element) => element.classList.add("hidden")); //fixed this right?
                 Frame.classList.remove("hidden");
                 IFrame.src = `${game.gameroot}`;
               });
@@ -97,18 +98,18 @@
         });
         
         document.getElementById("GameSearchBar").addEventListener("input", () => {
-          const searchedup = document
-            .getElementById("GameSearchBar")
-            .value.trim()
-            .toLowerCase();
-          const gameholders = document.querySelector(".Projects-Container");
-          const gmae = gameholders.querySelectorAll(".Projects-Project");
-        
-          gmae.forEach((game) => {
-            var gamenames = game.querySelector("h1").innerText.trim().toLowerCase();
-            if (gamenames.includes(searchedup)) game.classList.remove("hidden");
-            else game.classList.add("hidden");
-          });
+            const searchValue = document.getElementById("GameSearchBar").value.trim().toLowerCase();
+            const gameholders = document.querySelector(".Projects-Container");
+            const games = gameholders.querySelectorAll(".Projects-Project");
+
+            games.forEach((game) => {
+                const gamename = game.querySelector("h1")?.innerText.trim().toLowerCase() || "";
+                if (gamename.includes(searchValue)) {
+                    game.classList.remove("hidden");
+                } else {
+                    game.classList.add("hidden");
+                }
+            });
         });
         
         addGames();
