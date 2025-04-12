@@ -35,7 +35,6 @@
     <div class="hideAfterFullscreen">
         <center>
             <h1 style="margin-top: 25px; color: var(--text-color1)">Welcome to S7G, Middleschoolers</h1>
-            <h2 style="margin-top: 25px; color: var(--text-color1)">The games I make will always have a S7G ORIGINAL GAME icon</h2>
             <h3 style="margin-top: 25px; color: var(--text-color1)">Try out Crimson Sands, I think you will like it :)</h3>
         </center>
         <hr>
@@ -112,16 +111,17 @@
         
         document.getElementById("GameSearchBar").addEventListener("input", () => {
             const searchValue = document.getElementById("GameSearchBar").value.trim().toLowerCase();
-            const gameholders = document.querySelector(".Projects-Container");
-            const games = gameholders.querySelectorAll(".Projects-Project");
-
-            games.forEach((game) => {
-                const gamename = game.querySelector("h1")?.innerText.trim().toLowerCase() || "";
-                if (gamename.includes(searchValue)) {
-                    game.classList.remove("hidden");
-                } else {
-                    game.classList.add("hidden");
-                }
+            const gameContainers = document.querySelectorAll(".Projects-Container");
+            gameContainers.forEach(container => {
+                const games = container.querySelectorAll(".Projects-Project");
+                games.forEach((game) => {
+                    const gamename = game.querySelector("h1")?.innerText.trim().toLowerCase() || "";
+                    if (gamename.includes(searchValue)) {
+                        game.classList.remove("hidden");
+                    } else {
+                        game.classList.add("hidden");
+                    }
+                });
             });
         });
         
