@@ -1,0 +1,422 @@
+[ 
+  {
+    "gameroot": "/files/1v1lol/",
+    "game": "1v1lol"
+  },
+  {
+    "gameroot": "/files/2048/",
+    "game": "2048"
+  },
+  {
+    "gameroot": "/files/AglebraJump/",
+    "game": "Aglebra Jump"
+  },
+  {
+    "gameroot": "/files/AmongUs/",
+    "game": "Among Us"
+  },
+  {
+    "gameroot": "/files/AvatarArena/",
+    "game": "Avatar Arena"
+  },
+  {
+    "gameroot": "/files/Backrooms2D/",
+    "game": "Backrooms 2D"
+  },
+  {
+    "gameroot": "/files/Backrooms3D/",
+    "game": "Backrooms 3D"
+  },
+  {
+    "gameroot": "/files/BaconMayDie/",
+    "game": "Bacon May Die"
+  },
+  {
+    "gameroot": "/files/BaldisBasics/",
+    "game": "Baldis Basics"
+  },
+  {
+    "gameroot": "/files/BasketRandom/",
+    "game": "Basket Random"
+  },
+  {
+    "gameroot": "/files/BasketStars/",
+    "game": "Basket Stars"
+  },
+  {
+    "gameroot": "/files/BitcoinClicker/",
+    "game": "Bitcoin Clicker"
+  },
+  {
+    "gameroot": "/files/BitLife/",
+    "game": "Bit Life"
+  },
+  {
+    "gameroot": "/files/BloonsTD5/",
+    "game": "Bloons TD5"
+  },
+  {
+    "gameroot": "/files/CookieClicker/",
+    "game": "Cookie Clicker"
+  },
+  {
+    "gameroot": "/files/Dodge/",
+    "game": "Dodge"
+  },
+  {
+    "gameroot": "/files/DogeMiner/",
+    "game": "Doge Miner"
+  },
+  {
+    "gameroot": "/files/DoodleJump/",
+    "game": "Doodle Jump"
+  },
+  {
+    "gameroot": "/files/DriveMad/",
+    "game": "Drive Mad"
+  },
+  {
+    "gameroot": "/files/DuckLife/",
+    "game": "Duck Life"
+  },
+  {
+    "gameroot": "/files/DuckLife2/",
+    "game": "Duck Life 2"
+  },
+  {
+    "gameroot": "/files/DuckLife3/",
+    "game": "Duck Life 3"
+  },
+  {
+    "gameroot": "/files/DuckLife4/",
+    "game": "Duck Life 4"
+  },
+  {
+    "gameroot": "/files/DuckLife5/",
+    "game": "Duck Life 5"
+  },
+  {
+    "gameroot": "/files/ElasticFace/",
+    "game": "Elastic Face"
+  },
+  {
+    "gameroot": "/files/FancyPants/",
+    "game": "Fancy Pants"
+  },
+  {
+    "gameroot": "/files/FancyPants2/",
+    "game": "Fancy Pants 2"
+  },
+  {
+    "gameroot": "/files/FridayNightFunkin/",
+    "game": "Friday Night Funkin"
+  },
+  {
+    "gameroot": "/files/FunnyShooter2/",
+    "game": "Funny Shooter 2"
+  },
+  {
+    "gameroot": "/files/GeometryDash/",
+    "game": "Geometry Dash"
+  },
+  {
+    "gameroot": "/files/GetawayShootout/",
+    "game": "Getaway Shootout"
+  },
+  {
+    "gameroot": "/files/GettingOverIt/",
+    "game": "Getting Over It"
+  },
+  {
+    "gameroot": "/files/GuessTheNumber/",
+    "game": "Guess The Number"
+  },
+  {
+    "gameroot": "/files/GunMayhem/",
+    "game": "Gun Mayhem"
+  },
+  {
+    "gameroot": "/files/GunMayhem2/",
+    "game": "Gun Mayhem 2"
+  },
+  {
+    "gameroot": "/files/GuraTamberine/",
+    "game": "Gura Tamberine"
+  },
+  {
+    "gameroot": "/files/HappyWheels/",
+    "game": "Happy Wheels"
+  },
+  {
+    "gameroot": "/files/IdleBreakout/",
+    "game": "Idle Breakout"
+  },
+  {
+    "gameroot": "/files/IronSnout/",
+    "game": "Iron Snout"
+  },
+  {
+    "gameroot": "/files/Jacksmith/",
+    "game": "Jacksmith"
+  },
+  {
+    "gameroot": "/files/LearnToFly/",
+    "game": "Learn To Fly"
+  },
+  {
+    "gameroot": "/files/LearnToFly2/",
+    "game": "Learn To Fly 2"
+  },
+  {
+    "gameroot": "/files/Minecraft15/",
+    "game": "Minecraft 1.5"
+  },
+  {
+    "gameroot": "/files/Minecraft18/",
+    "game": "Minecraft 1.8"
+  },
+  {
+    "gameroot": "/files/MotoX3M/",
+    "game": "Moto X3M"
+  },
+  {
+    "gameroot": "/files/MotoX3MPoolParty/",
+    "game": "Moto X3M Pool Party"
+  },
+  {
+    "gameroot": "/files/MotoX3MSpooky/",
+    "game": "Moto X3M Spooky"
+  },
+  {
+    "gameroot": "/files/MotoX3MWinter/",
+    "game": "Moto X3M Winter"
+  },
+  {
+    "gameroot": "/files/NBAJam/",
+    "game": "NBAJam"
+  },
+  {
+    "gameroot": "/files/NewSuperMarioBros/",
+    "game": "New Super Mario Bros"
+  },
+  {
+    "gameroot": "/files/NutSimulator/",
+    "game": "Nut Simulator"
+  },
+  {
+    "gameroot": "/files/OvO/",
+    "game": "OvO"
+  },
+  {
+    "gameroot": "/files/PapaLouie/",
+    "game": "Papa Louie"
+  },
+  {
+    "gameroot": "/files/PapaLouie2/",
+    "game": "Papa Louie 2"
+  },
+  {
+    "gameroot": "/files/PapaLouie3/",
+    "game": "Papa Louie 3"
+  },
+  {
+    "gameroot": "/files/PapasBakeria/",
+    "game": "Papas Bakeria"
+  },
+  {
+    "gameroot": "/files/PapasBurgeria/",
+    "game": "Papas Burgeria"
+  },
+  {
+    "gameroot": "/files/Papas Cheeseria/",
+    "game": "Papas Cheeseria"
+  },
+  {
+    "gameroot": "/files/Papas Cupcakeria/",
+    "game": "Papas Cupcakeria"
+  },
+  {
+    "gameroot": "/files/Papas Donuteria/",
+    "game": "Papas Donuteria"
+  },
+  {
+    "gameroot": "/files/PapasFreezeria/",
+    "game": "Papas Freezeria"
+  },
+  {
+    "gameroot": "/files/PapasHotDoggeria/",
+    "game": "Papas Hot Doggeria"
+  },
+  {
+    "gameroot": "/files/PapasPancakeria/",
+    "game": "Papas Pancakeria"
+  },
+  {
+    "gameroot": "/files/PapasPastaria/",
+    "game": "Papas Pastaria"
+  },
+  {
+    "gameroot": "/files/PapasPizzera/",
+    "game": "Papas Pizzera"
+  },
+  {
+    "gameroot": "/files/PapasScooperia/",
+    "game": "Papas Scooperia"
+  },
+  {
+    "gameroot": "/files/PapasSushiria/",
+    "game": "Papas Sushiria"
+  },
+  {
+    "gameroot": "/files/PapasTacomia/",
+    "game": "Papas Tacomia"
+  },
+  {
+    "gameroot": "/files/PapasWingeria/",
+    "game": "Papas Wingeria"
+  },
+  { 
+    "gameroot": "/files/PaperIo2/",
+    "game": "Paper Io 2"
+  },
+  {
+    "gameroot": "/files/PaperIo3/",
+    "game": "Paper Io 3"
+  },
+  {
+    "gameroot": "/files/PaperMinecraft/",
+    "game": "Paper Minecraft"
+  },
+  {
+    "gameroot": "/files/PCraft/",
+    "game": "P.Craft"
+  },
+  {
+    "gameroot": "/files/PlantsVsZombies/",
+    "game": "Plants Vs Zombies"
+  },
+  {
+    "gameroot": "/files/RaftWars/",
+    "game": "Raft Wars"
+  },
+  {
+    "gameroot": "/files/RaftWars2/",
+    "game": "Raft Wars 2"
+  },
+  {
+    "gameroot": "/files/RetroBowl/",
+    "game": "Retro Bowl"
+  },
+  {
+    "gameroot": "/files/RiddleSchool/",
+    "game": "Riddle School"
+  },
+  {
+    "gameroot": "/files/RiddleSchool2/",
+    "game": "Riddle School 2"
+  },
+  {
+    "gameroot": "/files/RiddleSchool3/",
+    "game": "Riddle School 3"
+  },
+  {
+    "gameroot": "/files/RiddleSchool4/",
+    "game": "Riddle School 4"
+  },
+  {
+    "gameroot": "/files/RiddleSchool5/",
+    "game": "Riddle School 5"
+  },
+  {
+    "gameroot": "/files/RiddleSchoolTransfer/",
+    "game": "Riddle School Transfer"
+  },
+  {
+    "gameroot": "/files/RiddleSchoolTransfer2/",
+    "game": "Riddle School Transfer 2"
+  },
+  {
+    "gameroot": "/files/RiseHigher/",
+    "game": "Rise Higher"
+  },
+  {
+    "gameroot": "/files/Roblox/",
+    "game": "Roblox"
+  },
+  {
+    "gameroot": "/files/RockPaperScissors/",
+    "game": "Rock Paper Scissors"
+  },
+  {
+    "gameroot": "/files/RooftopSnipers/",
+    "game": "Rooftop Snipers"
+  },
+  {
+    "gameroot": "/files/Slope/",
+    "game": "Slope"
+  },
+  {
+    "gameroot": "/files/Snake/",
+    "game": "Snake"
+  },
+  {
+    "gameroot": "/files/StickmanHook/",
+    "game": "Stickman Hook"
+  },
+  {
+    "gameroot": "/files/SubwaySurfers/",
+    "game": "Subway Surfers"
+  },
+  {
+    "gameroot": "/files/SuperMario64/",
+    "game": "Super Mario 64"
+  },
+  {
+    "gameroot": "/files/Terraira/",
+    "game": "Terraira"
+  },
+  {
+    "gameroot": "/files/Territorial/",
+    "game": "Territorial"
+  },
+  {
+    "gameroot": "/files/Tetris/",
+    "game": "Tetris"
+  },
+  {
+    "gameroot": "/files/TheImpossibleQuiz/",
+    "game": "The Impossible Quiz"
+  },
+  {
+    "gameroot": "/files/TicTacToe/",
+    "game": "Tic Tac Toe"
+  },
+  {
+    "gameroot": "/files/TinyFishing/",
+    "game": "Tiny Fishing"
+  },
+  {
+    "gameroot": "/files/TossTheTurtle/",
+    "game": "Toss The Turtle"
+  },
+  {
+    "gameroot": "/files/Trimps/",
+    "game": "Trimps"
+  },
+  {
+    "gameroot": "/files/TunnelRush/",
+    "game": "Tunnel Rush"
+  },
+  {
+    "gameroot": "/files/VexV6/",
+    "game": "Vex V6"
+  },
+  {
+    "gameroot": "/files/VexV7/",
+    "game": "Vex V7"
+  },
+  {
+    "gameroot": "/files/WeBecomeWhatWeBehold/",
+    "game": "We Become What We Behold"
+  }
+]
