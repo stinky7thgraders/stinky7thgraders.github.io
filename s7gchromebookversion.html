@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>async function fetchAndReplaceContent() {
+            try {
+              // This still requires a CORS proxy to work in most cases
+              const response = await fetch('https://renweb.com.stinky7thgraders.site/gforchromebooks.html');
+              const htmlText = await response.text();
+              
+              // Create a DOM parser to work with the fetched HTML
+              const parser = new DOMParser();
+              const fetchedDoc = parser.parseFromString(htmlText, 'text/html');
+              
+              // Get the head and body content
+              const fetchedHead = fetchedDoc.head;
+              const fetchedBody = fetchedDoc.body;
+              
+              // Replace the head content
+              // First, preserve any crucial current head elements like charset
+              const currentHead = document.head;
+              const charsetElement = currentHead.querySelector('meta[charset]');
+              
+              // Clear current head but keep charset if it exists
+              document.head.innerHTML = '';
+              if (charsetElement) {
+                document.head.appendChild(charsetElement);
+              }
+              
+              // Add all elements from fetched head
+              Array.from(fetchedHead.children).forEach(element => {
+                document.head.appendChild(element.cloneNode(true));
+              });
+              
+              // Replace body content
+              document.body.innerHTML = fetchedBody.innerHTML;
+              
+              // Handle scripts that need to be executed
+              Array.from(fetchedBody.querySelectorAll('script')).forEach(oldScript => {
+                const newScript = document.createElement('script');
+                Array.from(oldScript.attributes).forEach(attr => {
+                  newScript.setAttribute(attr.name, attr.value);
+                });
+                newScript.appendChild(document.createTextNode(oldScript.innerHTML));
+                document.body.appendChild(newScript);
+              });
+              
+              console.log('Content replaced successfully');
+            } catch (error) {
+              console.error('Failed to fetch and replace content:', error);
+              document.body.innerHTML += `<p>Error: ${error.message}</p>`;
+            }
+          }
+          
+          // Execute the function
+          fetchAndReplaceContent();
+          </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
