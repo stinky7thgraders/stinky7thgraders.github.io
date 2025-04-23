@@ -240,8 +240,9 @@
     "game": "Astros Misadventure"
   },
   {
-    "gameroot": "/S7GBreached/",
-    "game": "S7G Breached"
+    "gameroot": "https://games.crazygames.com/en_US/shellshockersio/index.html?v=1.310",
+    "game": "Shell Shockers",
+    "seperateiframe": "x"
   },
   {
     "gameroot": "/files/Papas Cupcakeria/",

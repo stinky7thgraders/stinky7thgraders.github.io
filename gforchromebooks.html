@@ -126,6 +126,13 @@
         </section>
     
         <hr style="margin: 2em 0">
+
+        <section class="Projects-New">
+            <h2 style="text-align: center; margin-top: 2em; color: var(--text-color1)">New Games</h2>
+            <div class="Projects-Container" id="NewGames-Container"></div>
+        </section>
+
+        <hr style="margin: 2em 0">
     
         <section>
             <div class="Projects-Container" id="AllGames-Container"></div>
@@ -155,14 +162,24 @@
                         <h1>${game.game}</h1>`;
                         const isOriginal = ["CrimsonSands", "GeneticDivergence", "AstrosMisadventure", "TheStateofMatter", "S7GBreached"]
                         .includes(game.game.replace(/\s/g, ''));
+                        const isNew = ["ShellShockers"].includes(game.game.replace(/\s/g, ''));
 
                     document.getElementById(isOriginal ? "Originals-Container" : "AllGames-Container")
                         .appendChild(project);
+
+                    document.getElementById(
+                            isOriginal ? "Originals-Container" :
+                            isNew ? "NewGames-Container" :
+                            "AllGames-Container"
+                        ).appendChild(project);
         
               project.addEventListener("click", () => {
                 HAF.forEach((element) => element.classList.add("hidden")); //fixed this right?
                 Frame.classList.remove("hidden");
-                IFrame.src = `https://renweb.com.stinky7thgraders.site${game.gameroot}`;
+                if(game.seperateiframe == null)
+                    IFrame.src = `https://renweb.com.stinky7thgraders.site${game.gameroot}`;
+                else
+                    IFrame.src = game.gameroot;
               });
             }
           } catch (error) {
