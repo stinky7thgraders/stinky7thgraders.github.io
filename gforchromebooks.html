@@ -162,10 +162,21 @@
                         <h1>${game.game}</h1>`;
                         const isOriginal = ["CrimsonSands", "GeneticDivergence", "AstrosMisadventure", "TheStateofMatter", "S7GBreached"]
                         .includes(game.game.replace(/\s/g, ''));
-                        const isNew = ["ShellShockers"].includes(game.game.replace(/\s/g, ''));
+                        const isNew = [
+                        "ShellShockers",
+                        "CrazyCattle3D",
+                        "Deadshotio",
+                        "Slitherio",
+                        "Hazmob",
+                        "FreeGeoguessr",
+                        "CGFC",
+                        "Tag2",
+                        "CuttheRope",
+                        "JetBoatRacing"
+                        ].includes(game.game.replace(/\s/g, ''));
 
-                    document.getElementById(isOriginal ? "Originals-Container" : "AllGames-Container")
-                        .appendChild(project);
+                    // document.getElementById(isOriginal ? "Originals-Container" : "AllGames-Container")
+                    //     .appendChild(project);
 
                     document.getElementById(
                             isOriginal ? "Originals-Container" :

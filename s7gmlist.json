@@ -240,8 +240,52 @@
     "game": "Astros Misadventure"
   },
   {
+    "gameroot": "/cc3d/",
+    "game": "Crazy Cattle 3D"
+  },
+  {
+    "gameroot": "https://games.crazygames.com/en_US/deadshot-io/index.html?v=1.310",
+    "game": "Deadshot io",
+    "seperateiframe": "x"
+  },
+  {
     "gameroot": "https://games.crazygames.com/en_US/shellshockersio/index.html?v=1.310",
     "game": "Shell Shockers",
+    "seperateiframe": "x"
+  },
+  {
+    "gameroot": "https://slither.io/",
+    "game": "Slither io",
+    "seperateiframe": "x"
+  },
+  {
+    "gameroot": "https://games.crazygames.com/en_US/hazmob-fps-online-shooter/index.html?v=1.310",
+    "game": "Hazmob",
+    "seperateiframe": "x"
+  },
+  {
+    "gameroot": "https://games.crazygames.com/en_US/worldguessr/index.html?v=1.310",
+    "game": "Free Geoguessr",
+    "seperateiframe": "x"
+  },
+  {
+    "gameroot": "https://games.crazygames.com/en_US/cg-fc-24/index.html?v=1.310",
+    "game": "CG FC",
+    "seperateiframe": "x"
+  },
+  {
+    "gameroot": "https://class811.github.io/g177/tag-2",
+    "game": "Tag 2",
+    "seperateiframe": "x"
+  },
+  {
+    "gameroot": "https://games.crazygames.com/en_US/cut-the-rope-ebx/index.html?v=1.310",
+    "game": "Cut the Rope",
+    "seperateiframe": "x"
+  },
+  {
+    "gameroot": "https://games.crazygames.com/en_US/jet-boat-racing/index.html?v=1.310",
+    "game": "Jet Boat Racing",
     "seperateiframe": "x"
   },
   {
