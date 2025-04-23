@@ -259,6 +259,11 @@
     "seperateiframe": "x"
   },
   {
+    "gameroot": "https://eaglymc.com",
+    "game": "Better Minecraft",
+    "seperateiframe": "x"
+  },
+  {
     "gameroot": "https://games.crazygames.com/en_US/hazmob-fps-online-shooter/index.html?v=1.310",
     "game": "Hazmob",
     "seperateiframe": "x"
